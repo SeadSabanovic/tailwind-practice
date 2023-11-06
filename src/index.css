@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+  @apply rounded-lg border overflow-hidden bg-white shadow relative hover:shadow-lg transition ease-in-out duration-500;
+}
+
+.badge {
+  @apply absolute z-10 top-4 left-4 px-2 py-1 rounded-full bg-rose-400 text-xs text-white font-bold;
+}
+
+.btn {
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold uppercase cursor-pointer tracking-wider shadow hover:scale-105 hover:shadow-lg;
+}
